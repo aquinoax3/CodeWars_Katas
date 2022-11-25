@@ -1,2 +1,2 @@
 # CodeWars_Katas
-Codewars Challenges
+8 Kyu Codewars Challenges
