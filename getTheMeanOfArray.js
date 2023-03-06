@@ -8,11 +8,11 @@
 
 
 
-function getAverage(marks){
- 
+function getAverage(marks) {
+
   const sumOfArray = marks.reduce((previous, current) => previous + current)
   const nearestWholeNum = Math.floor(sumOfArray / marks.length)
-  
- 
- return nearestWholeNum
+
+
+  return nearestWholeNum
 }
