@@ -8,12 +8,12 @@
 
 
 class Cat extends Animal {
-  constructor(name){
+  constructor(name) {
     super(name)
   }
- 
+
   speak() {
     return `${this.name} meows.`
   }
-  
+
 }
