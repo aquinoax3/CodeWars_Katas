@@ -4,12 +4,22 @@
 
 
 
-function fakeBin(x) {
-    let result = ""
 
-    for (char of x) {
-        Number(char) < 5 ? result += 0 : result += 1
-    }
 
-    return result
-}
+// optomized 
+
+const fakeBin = (x) => x.split("").map(num => num < 5 ? 0 : 1).join("")
+
+
+
+// brute
+
+// function fakeBin(x) {
+//     let result = ""
+
+//     for (char of x) {
+//         Number(char) < 5 ? result += 0 : result += 1
+//     }
+
+//     return result
+// }
