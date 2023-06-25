@@ -6,7 +6,7 @@
 
 
 
-// optomized 
+// optimized 
 
 const fakeBin = (x) => x.split("").map(num => num < 5 ? 0 : 1).join("")
 
