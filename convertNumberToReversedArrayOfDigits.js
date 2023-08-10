@@ -6,23 +6,30 @@
 // 0 => [0]
 
 
+// Cleaner Code
 
+function digitize(n) {
+  return String(n).split("").map(num => Number(num)).reverse()
+}
 
 
 
 function digitize(n) {
   //code here
-  
+
   //convert input into string then .split() con convert into an array
   //loop through the array, convert the value from string into a number using Number()
   // push value into resultArr and then reverse()
   const num = String(n).split('');
   const resultArr = [];
-  
+
   for (let i = 0; i < num.length; i++) {
     resultArr.push(Number(num[i]))
   }
-  
-  
+
+
   return resultArr.reverse();
 }
+
+
+
