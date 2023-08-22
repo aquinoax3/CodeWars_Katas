@@ -3,7 +3,7 @@
 // The order of the sequence has to stay the same.
 
 
-// Sipler Solution
+// Simpler Solution
 function distinct(a) {
   return [...new Set(a)];
 }
@@ -13,8 +13,6 @@ function distinct(a) {
 function distinct(a) {
   return a.filter((num, idx) => a.indexOf(num) === idx);
 }
-
-
 
 // first attempt
 function distinct(a) {
