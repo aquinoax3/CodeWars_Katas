@@ -3,7 +3,14 @@
 // The order of the sequence has to stay the same.
 
 
+// Cleaner Code
+function distinct(a) {
+  return a.filter((num, idx) => a.indexOf(num) === idx );
+}
 
+
+
+// first attempt
 function distinct(a) {
   const result = []
   
