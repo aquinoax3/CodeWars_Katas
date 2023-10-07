@@ -13,6 +13,20 @@
 // Switch the boolean value on the same element as the flick itself.
 
 
+
+// Cleaner Code
+function flickSwitch(arr) {
+    let toggle = true
+
+    return arr.map(word => word !== "flick" ? toggle : toggle = !toggle)
+}
+
+
+
+
+
+
+// brute force
 function flickSwitch(arr) {
     let toggle = true
 
