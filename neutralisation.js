@@ -20,6 +20,12 @@
 // The two strings will be the same length.
 
 
+// Cleaner Code
+function neutralise(s1, s2) {
+    // Here be dragons!
+    return s1.split("").map((char, idx) => char === s2[idx] ? char : "0").join("")
+}
+
 
 //Brute Force
 function neutralise(s1, s2) {
